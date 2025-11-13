@@ -1,6 +1,11 @@
 # 📚 Book Scraper & Analysis
 
-Bienvenido a **Book Scraper & Analysis**, un proyecto en Python para **extraer información de libros** de [Books to Scrape](https://books.toscrape.com/) y **analizar precios, ratings y disponibilidad** con gráficos y estadísticas.  
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python)](https://www.python.org/) 
+[![License](https://img.shields.io/badge/License-MIT-green)](LICENSE) 
+[![GitHub stars](https://img.shields.io/github/stars/Powfip/book_analysis?style=social)](https://github.com/Powfip/book_analysis/stargazers) 
+[![Made with VSCode](https://img.shields.io/badge/Made%20with-VSCode-blue?logo=visual-studio-code)](https://code.visualstudio.com/)
+
+**Book Scraper & Analysis** es un proyecto en Python para **extraer información de libros** de [Books to Scrape](https://books.toscrape.com/), analizar precios, ratings y disponibilidad, y generar gráficos con estadísticas básicas.  
 
 ---
 
@@ -23,28 +28,28 @@ pip install pandas matplotlib beautifulsoup4 requests
 🏃‍♂️ Cómo usar el proyecto
 1️⃣ Ejecutar el scraper
 python scraper_book.py
-Descarga información de 1000 libros (50 páginas).
-Crea libros.csv con las columnas:
+Descarga 1000 libros (50 páginas).
+Genera libros.csv con estas columnas:
 titulo → Título del libro
 precio → Precio en libras (£)
-rating → Valoración (One, Two, Three, Four, Five)
+rating → Valoración (One a Five)
 disponibilidad → Stock disponible
 2️⃣ Ejecutar el análisis
 python analysis.py
-Convierte los datos:
+Convierte y limpia los datos:
 Precio a número flotante
 Rating de texto a número
 Muestra estadísticas:
 Número total de libros
 Precio medio, mínimo y máximo
 Conteo de libros por rating
-Genera tres gráficos:
+Genera gráficos automáticamente:
 📊 Histograma de precios
 📈 Precio medio por rating (barras)
 🔹 Scatter plot: precio vs rating
-📊 Ejemplos de gráficos
+📊 Ejemplos visuales
 Histograma de precios	Precio medio por rating	Scatter precio vs rating
-
+Consejo: Guarda tus gráficos generados en la carpeta examples para mostrarlos en GitHub.
 💡 Notas importantes
 No es necesario subir libros.csv; otros pueden generar sus propios datos ejecutando scraper_book.py.
 Asegúrate de usar la codificación correcta al leer CSV (utf-8 o latin-1).
@@ -62,3 +67,5 @@ Matplotlib Documentation
 📧 Contacto
 Si tienes dudas o sugerencias sobre el proyecto, puedes escribirme a:
 123filipi@gmail.com
+🌟 Contribuciones
+Si quieres mejorar este proyecto, eres bienvenido a hacer fork y pull request. Toda contribución será bien recibida.
