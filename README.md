@@ -25,14 +25,15 @@ Python 3.10+ y las siguientes librerías:
 
 ```bash
 pip install pandas matplotlib beautifulsoup4 requests
+
 🏃‍♂️ Cómo usar el proyecto
 1️⃣ Ejecutar el scraper
 python scraper_book.py
 Descarga 1000 libros (50 páginas).
-Genera libros.csv con estas columnas:
+Crea libros.csv con estas columnas:
 titulo → Título del libro
 precio → Precio en libras (£)
-rating → Valoración (One a Five)
+rating → Valoración (One, Two, Three, Four, Five)
 disponibilidad → Stock disponible
 2️⃣ Ejecutar el análisis
 python analysis.py
@@ -69,3 +70,4 @@ Si tienes dudas o sugerencias sobre el proyecto, puedes escribirme a:
 123filipi@gmail.com
 🌟 Contribuciones
 Si quieres mejorar este proyecto, eres bienvenido a hacer fork y pull request. Toda contribución será bien recibida.
+🎉 ¡Explora libros, analiza precios y ratings, y practica análisis de datos en Python! 🚀
